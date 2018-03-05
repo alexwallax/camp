@@ -1,0 +1,106 @@
+/* 
+    Created on : 18/02/2018, 12:34:18
+    Author     : ALEXWALLACEARAUJODES
+    Version 0.1
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* ********** layout ********** */
+html ,body, .capa {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background: url("../img/fut10.jpg") no-repeat, /* colocando dois backgrounds com esses dois urls */
+        url('../img/ruido.png'), /* isso é possivel pq elas estão ambas com opacidade */
+        linear-gradient(100deg,#01DF74, #01DF3A); /* Essa linha de codigo vai colocar um gradiente */
+    background-attachment: fixed; /* faz com que o background de fundo fique parado */
+    font-family: Helvetica,Arial,sans-serif;
+    /*  overflow-x: hidden;  remove a barra de navegação na horizontal */
+    /* o overflow-y remove a barra de navegação na vertical */
+    background-size: 100% 100%;
+}
+
+/* ********** cabecalho ********** */
+
+
+/* ********** Barra de navegação ********** */
+.img-logo{
+    height: 40px; /* altura */
+    width: 132px; /* largura */
+    display: block; /* para ficar do tamanho de bloco */
+    background: url('../img/spotify.svg') no-repeat; /* o formato .svg se adequa ao tamanho do dispositivo */
+    background-size: contain; /*  */
+    color: transparent; 
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px; /* tamanho do meu */
+    background: rgba(0, 0, 0, 0.7); /* transparencia */
+    border: none;
+}
+.navbar-brand{
+
+    padding: 5px 15px;
+}
+
+/* ********** Corpo ********** */
+
+
+/* ********** Rodape ********** */
+
+
+/* medias queries */
+/* xs <768 */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+    #corpo-centro {
+        width: 150px;
+    }
+    .logo {
+        font-size: 15px;
+    }
+    
+#corpo-centro {
+
+    border: 2px solid white;
+    border-radius: 20px;
+}    
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+        align-content: center;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    #corpo-centro {
+        width: 300px;
+    }
+    .logo {
+        font-size: 15px;
+    }   
+    #corpo-centro {
+        align-content: center;
+    }
+    .menu {
+        align-content: center;
+    }
+}
