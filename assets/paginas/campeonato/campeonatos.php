@@ -5,10 +5,10 @@
         <title>Entrar</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <link rel="stylesheet" href="../css/estilo.css">
-        <script src="../js/jquery.js"></script>
-        <script src="../js/bootstrap.js"></script>  
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../css/estilo.css">
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/bootstrap.js"></script>  
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,9 +42,9 @@
                     <!-- navbar --> 
                     <div class="collapse navbar-collapse" id="barra-navegacao">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="../index.php">Início</a></li>  
-                            <li><a href="cadastro.php">Cadastre-se</a></li>                      
-                            <li><a href="entrar.php">Entrar</a></li>                                  
+                            <li><a href="../../../index.php">Início</a></li>  
+                            <li><a href="../cadastro/cadastro.php">Cadastre-se</a></li>                      
+                            <li><a href="../entrar/entrar.php">Entrar</a></li>                                  
                         </ul>
                     </nav>  <!-- fim do navbar -->  
 

@@ -42,9 +42,9 @@
                     <!-- navbar --> 
                     <div class="collapse navbar-collapse" id="barra-navegacao">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="assets/paginas/campeonatos.php">Campeonatos</a></li>
-                            <li><a href="assets/paginas/cadastro.php">Cadastre-se</a></li>                      
-                            <li><a href="assets/paginas/entrar.php">Entrar</a></li>
+                            <li><a href="assets/paginas/campeonato/campeonatos.php">Campeonatos</a></li>
+                            <li><a href="assets/paginas/cadastro/cadastro.php">Cadastre-se</a></li>                      
+                            <li><a href="assets/paginas/entrar/entrar.php">Entrar</a></li>
                         </ul>
                     </nav>  <!-- fim do navbar -->  
 

@@ -2,12 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Entrar</title>
+        <title>Cadastre-se</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <link rel="stylesheet" href="../css/estilo.css">
-        <script src="../js/jquery.js"></script>
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../css/estilo.css">
+        <script src="../../js/jquery.js"></script>
         <script src="../js/bootstrap.js"></script>  
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -42,8 +42,9 @@
                     <!-- navbar --> 
                     <div class="collapse navbar-collapse" id="barra-navegacao">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="../index.php">Início</a></li>  
-                            <li><a href="campeonatos.php">Campeonatos</a></li>                                             
+                            <li><a href="../../../index.php">Início</a></li>  
+                            <li><a href="../campeonato/campeonatos.php">Campeonatos</a></li>                                            
+                            <li><a href="../entrar/entrar.php">Entrar</a></li>
                         </ul>
                     </nav>  <!-- fim do navbar -->  
 
@@ -51,10 +52,9 @@
 
             </div> <!-- fim da div cabecalho -->             
         </div><!-- fim da div geral --> 
-        
         <?php
-            echo "<h1>Entrar</h1>";
-        ?>     
+            echo "<h1>Cadastro</h1>";
+        ?>
     </body>
 </html>
 
