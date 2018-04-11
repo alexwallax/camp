@@ -16,11 +16,11 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        
+
     </head>
     <body>
         <div id="geral">
-            
+
             <nav id="cabecalho" class="navbar-fixed-top navbar-inverse navbar-transparente">
                 <div class="container">
                     <!-- Header -->
@@ -46,11 +46,17 @@
                             <li><a href="assets/paginas/cadastro/cadastro.php">Cadastre-se</a></li>                      
                             <li><a href="assets/paginas/entrar/entrar.php">Entrar</a></li>
                         </ul>
-                    </nav>  <!-- fim do navbar -->  
+                        </nav>  <!-- fim do navbar -->  
 
-                </div> <!-- fim do container -->
+                    </div> <!-- fim do container -->
 
-            </div> <!-- fim da div cabecalho -->             
-        </div><!-- fim da div geral --> 
+                </div> <!-- fim da div cabecalho -->  
+
+                <!-- Rodape -->
+                <div class="rodape">
+
+                </div> <!-- fim do rodape -->
+
+        </div><!-- fim da div geral -->         
     </body>
 </html>
