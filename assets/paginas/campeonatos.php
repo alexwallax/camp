@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Campeonatos</title>
+        <title>Entrar</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <link rel="stylesheet" href="assets/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/css/estilo.css">
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/bootstrap.js"></script>  
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/estilo.css">
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.js"></script>  
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +34,7 @@
                             <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
                         </button>
 
-                        <a href="index.php" class="navbar-brand">
+                        <a href="../index.php" class="navbar-brand">
                             <span class="logo">Campeonatos Gamer</span>
                         </a>
 
@@ -42,9 +42,9 @@
                     <!-- navbar --> 
                     <div class="collapse navbar-collapse" id="barra-navegacao">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="assets/paginas/campeonatos.php">Campeonatos</a></li>
-                            <li><a href="assets/paginas/cadastro.php">Cadastre-se</a></li>                      
-                            <li><a href="assets/paginas/entrar.php">Entrar</a></li>
+                            <li><a href="../index.php">Início</a></li>  
+                            <li><a href="cadastro.php">Cadastre-se</a></li>                      
+                            <li><a href="entrar.php">Entrar</a></li>                                  
                         </ul>
                     </nav>  <!-- fim do navbar -->  
 
@@ -52,5 +52,12 @@
 
             </div> <!-- fim da div cabecalho -->             
         </div><!-- fim da div geral --> 
+        
+        <?php
+            echo "<h1>Campeonatos</h1>";
+        ?>
     </body>
 </html>
+
+
+
