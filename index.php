@@ -38,7 +38,7 @@
                             <span class="logo">Campeonatos Gamer</span>
                         </a>
 
-                    </div> <!-- fim do Header -->
+                    </div> <!-- fim do navbar-header -->
                     <!-- navbar --> 
                     <div class="collapse navbar-collapse" id="barra-navegacao">
                         <ul class="nav navbar-nav navbar-right">
@@ -46,17 +46,22 @@
                             <li><a href="assets/paginas/cadastro/cadastro.php">Cadastre-se</a></li>                      
                             <li><a href="assets/paginas/entrar/entrar.php">Entrar</a></li>
                         </ul>
-                        </nav>  <!-- fim do navbar -->  
+                    </div><!-- fim da collapse navbar-collapse -->   
+                </div><!-- fim da div container -->  
+            </nav>  <!-- fim da div cabecalho -->  
 
-                    </div> <!-- fim do container -->
 
-                </div> <!-- fim da div cabecalho -->  
 
-                <!-- Rodape -->
-                <div class="rodape">
+            <!--  -->   
 
-                </div> <!-- fim do rodape -->
+            <div class="footer">
+                <p></p>
+            </div> <!-- fim do rodape -->   
 
-        </div><!-- fim da div geral -->         
+        </div> <!-- fim div geral -->
+
+
+
+
     </body>
 </html>
