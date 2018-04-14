@@ -18,7 +18,7 @@
         <![endif]-->
 
     </head>
-    
+
     <body>
 
         <div id="geral_index" class="container">
@@ -34,16 +34,18 @@
 
                     <!-- Corpo -->
                     
+                    
 
-                    <!-- Rodape -->
-                    <?php
-                    include "../rodape/rodape.php";
-                    ?>
-
-                </div>
+                </div><!-- fim div col-md-12 -->
 
             </div><!-- fim div row -->
 
         </div><!-- fim div container -->
+
+        <!-- Rodape -->
+        <?php
+        include "../rodape/rodape.php";
+        ?>        
+
     </body>
 </html>
