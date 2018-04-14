@@ -10,7 +10,7 @@
 /* ********** layout ********** */
 html ,body, .capa {
     height: 100%;
-    overflow: auto;
+    overflow: auto; 
 }
 
 body {
@@ -28,45 +28,70 @@ body {
 
 
 /* ********** Barra de navegação ********** */
-.logo {
-    color: white;
+
+.navbar-brand {
+    
+    float: none;
 }
 
 .img-logo{
     height: 40px; /* altura */
     width: 132px; /* largura */
     display: block; /* para ficar do tamanho de bloco */
-    background: url('../img/spotify.svg') no-repeat; /* o formato .svg se adequa ao tamanho do dispositivo */
     background-size: contain; /*  */
     color: transparent; 
+    
 }
 
 nav.navbar-transparente{
-    padding: 15px 0px; /* tamanho do meu */
-    background: rgba(0, 0, 0, 0.7); /* transparencia */
+    padding: 15px 20px; /*  tamanho do meu */
+    background: rgba(0, 0, 0, 0.7); /*  transparencia   */
     border: none;
 }
-.navbar-brand{
+/*.navbar-brand{
 
     padding: 5px 15px;
-}
+}*/
 
 /* ********** Corpo ********** */
 
 
-/* ********** Rodape ********** */
+/* ********** Cadastro ********** */
 
-.footer {
-    width: 100%;
-    height: 100px;
-    background: #000;
-    padding: 50px 0px 20px 0px; 
-    position: absolute; /* deixa a imagem em cima de outras */
-    bottom: 0;
+#cadastro {
+    border-radius: 10px;
+    width: 380px;
+    height: 300px;
+    background: #fff;
+    margin-top: 200px;
+    padding: 10px;   
+    float: none;
 
 }
+
+/* ********** entrar ********** */
+
+#entrar {
+    border-radius: 10px;
+    width: 380px;
+    height: 280px;
+    background: #fff;
+    margin-top: 200px;
+    padding: 10px;   
+    float: none;
+}
+
+/* ********** Rodape ********** */
+.footer {
+    width: 100%;
+    height: 80px;
+    background: #000;
+    /*    padding: 50px 0px 20px 0px; */
+    position: absolute; /* deixa a imagem em cima de outras */
+    bottom: 0;
+}
 .iten-rede-social {
-    
+    float: right;
 }
 
 /* medias queries */
@@ -87,12 +112,39 @@ nav.navbar-transparente{
     .logo {
         font-size: 15px;
     }
-    
-#corpo-centro {
 
-    border: 2px solid white;
-    border-radius: 20px;
-}    
+    #corpo-centro {
+
+        border: 2px solid white;
+        border-radius: 20px;
+    }    
+    #entrar {
+
+        border-radius: 10px;
+        width: 180px;
+        height: 280px;
+        background: #fff;
+        margin-top: 150px;
+        padding: 10px;  
+        float: none;
+    }
+
+    b {
+        font-size: 20px;
+    }
+
+    #cadastro {
+
+        border-radius: 10px;
+        width: 180px;
+        height: 310px;
+        background: #fff;
+        margin-top: 150px;
+        padding: 10px;   
+        float: none;
+
+    }
+
 }
 
 /* sm */

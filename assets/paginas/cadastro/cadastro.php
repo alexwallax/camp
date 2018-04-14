@@ -19,51 +19,42 @@
 
     </head>
     <body>
-        <div id="geral">
+        <div id="geral_cadastro" class="container">
 
-            <nav id="cabecalho" class="navbar-fixed-top navbar-inverse navbar-transparente">
-                <div class="container">
-                    <!-- Header -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed"
-                                data-toggle="collapse" data-target="#barra-navegacao">
-
-                            <span class="sr-only">Alternar navegação</span>
-                            <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
-                            <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
-                            <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
-                        </button>
-
-                        <a href="../../../index.php" class="navbar-brand">
-                            <span class="logo">Campeonatos Gamer</span>
-                        </a>
-
-                    </div> <!-- fim do Header -->
-                    <!-- navbar --> 
-                    <div class="collapse navbar-collapse" id="barra-navegacao">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="../../../index.php">Início</a></li>  
-                            <li><a href="../campeonato/campeonatos.php">Campeonatos</a></li>                                            
-                            <li><a href="../entrar/entrar.php">Entrar</a></li>
-                        </ul>
-                    </div><!-- fim da class collapse navbar-collapse -->   
-                </div>    <!-- fim do container --> 
-            </nav>  <!-- fim do navbar cabecalho -->  
-
-            <div class="footer">
-                <p></p>
-            </div> <!-- fim do rodape -->   
+            <?php
+            include "../menu/menu.php";
+            ?>
 
 
-        </div><!-- fim da div geral --> 
+            <div class="row" align="center">
+
+                <div class="col-md-4" id="cadastro" align="center">
+                    <h3><b>Cadastre-se já.</b></h3>
+                    <br />
+                    <form method="post" action="registra_usuario.php" id="formCadastrarse">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário" required="requiored">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="requiored">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required="requiored">
+                        </div>
+
+                        <button type="submit" class="btn btn-block ">Inscreva-se</button>
+                    </form>
+                </div>            
+            </div>
+
+        </div><!-- fim da div container --> 
+
         <?php
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo "<h1>Cadastro</h1>";
+        include "../rodape/rodape.php";
         ?>
+
     </body>
 </html>
 

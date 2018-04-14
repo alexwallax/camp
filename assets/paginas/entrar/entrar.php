@@ -19,54 +19,47 @@
 
     </head>
     <body>
-        <div id="geral">
+        <div id="geral_entrar" class="container">
 
-            <nav id="cabecalho" class="navbar-fixed-top navbar-inverse navbar-transparente">
-                <div class="container">
-                    <!-- Header -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed"
-                                data-toggle="collapse" data-target="#barra-navegacao">
+            <?php
+            include "../menu/menu.php";
+            ?>
 
-                            <span class="sr-only">Alternar navegação</span>
-                            <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
-                            <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
-                            <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
-                        </button>
+            <!--formulario de entrar-->  
+            <div class="row" align="center">
 
-                        <a href="../../../index.php" class="navbar-brand">
-                            <span class="logo">Campeonatos Gamer</span>
-                        </a>
+                <div class="col-md-4" id="entrar" align="center">
 
-                    </div> <!-- fim do Header -->
-                    <!-- navbar --> 
-                    <div class="collapse navbar-collapse" id="barra-navegacao">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="../../../index.php">Início</a></li>  
-                            <li><a href="../campeonato/campeonatos.php">Campeonatos</a></li>                                             
-                        </ul>
-                    </div> <!-- fim da div collapse navbar-collapse -->  
-                </div>  <!-- fim do container -->
-            </nav>  <!-- fim do navbar cabecalho -->  
+                    <form method="post" action="validar_acesso.php" id="formLogin">
 
+                        <h1 align="center"><b>Login</b></h1>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="campo_usuario" name="usuario" placeholder="Usuário" />
+                        </div>
 
-            <div class="footer">
-                <p></p>
-            </div> <!-- fim do rodape -->   
+                        <div class="form-group">
+                            <input type="password" class="form-control red" id="campo_senha" name="senha" placeholder="Senha" />
+                        </div>
 
-        </div> <!-- fim da div geral --> 
+                        <button type="buttom" class="btn btn-block" id="btn_login">Entrar</button>
+
+                        <br /><br />
+                        <h6 align="center">Não é registrado?<a href="../cadastro/cadastro.php">Crie uma conta</a></h6>
+
+                    </form>
+
+                </div>
 
 
+            </div>
+        </div> <!-- fim da div container --> 
 
 
         <?php
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo "<h1>Entrar</h1>";
-        ?>     
+        include "../rodape/rodape.php";
+        ?>   
+
+
     </body>
 </html>
 
