@@ -18,18 +18,32 @@
         <![endif]-->
 
     </head>
+    
     <body>
-        <div id="geral">
 
-            <?php
-            include "../menu/menu.php";
-            ?>
+        <div id="geral_index" class="container">
 
+            <div class="row">
 
-            <?php
-            include "../rodape/rodape.php";
-            ?>
-        </div> <!-- fim div geral -->
+                <div class="col-md-12">
 
+                    <!-- Menu -->
+                    <?php
+                    include "../menu/menu.php";
+                    ?>
+
+                    <!-- Corpo -->
+                    
+
+                    <!-- Rodape -->
+                    <?php
+                    include "../rodape/rodape.php";
+                    ?>
+
+                </div>
+
+            </div><!-- fim div row -->
+
+        </div><!-- fim div container -->
     </body>
 </html>

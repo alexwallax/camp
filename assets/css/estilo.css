@@ -30,7 +30,7 @@ body {
 /* ********** Barra de navegação ********** */
 
 .navbar-brand {
-    
+
     float: none;
 }
 
@@ -40,7 +40,7 @@ body {
     display: block; /* para ficar do tamanho de bloco */
     background-size: contain; /*  */
     color: transparent; 
-    
+
 }
 
 nav.navbar-transparente{
