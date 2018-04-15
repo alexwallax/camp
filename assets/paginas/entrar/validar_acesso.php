@@ -1,10 +1,8 @@
 <?php
-
 require_once '../../classes/dao/db.php';
 
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
-
 
 $sql = " SELECT * FROM TB_USUARIOS WHERE USU_USUARIO = '$usuario' AND USU_SENHA = '$senha' ";
 
@@ -15,10 +13,16 @@ $link = $objDb->conecta();
 $resultado_id = mysqli_query($link, $sql);
 
 if ($resultado_id) {
-    
     $dados_usuario = mysqli_fetch_array($resultado_id);
     
-    header("location:../../../assets/paginas/campeonato/campeonatos.php");
+    if (isset($dados_usuario['USU_USUARIO'])) {
+//        echo 'existe';
+        header("location:../../../assets/paginas/index/index.php");
+    } else {
+         header("location:../../../assets/paginas/entrar/entrar.php");
+    }
+    
+   
 
 //    var_dump($dados_usuario);
     
