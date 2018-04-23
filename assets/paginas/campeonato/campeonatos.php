@@ -18,33 +18,138 @@
         <![endif]-->
 
     </head>
-    
+
     <body>
-        <div id="geral">
+
+        <div id="geral_campeonato" class="container">
 
             <?php
             include "../menu/menu.php";
             ?>
 
-            <!-- Rodape -->
-            <?php
-            include "../rodape/rodape.php";
-            ?>
+            <div class="row" align="center">
 
-        </div>  <!-- fim da div geral --> 
+                <div class="col-md-12" id="campeonato" align="center">
 
+                    <form method="post" action="validar_acesso.php" id="formLogin">
 
+                        <h1 align="center"><b>Campeonato</b></h1>
+                        <br />
 
+                        <div class="form-group row">
 
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <div class="col-md-3 usuario_participante" id="usuario01"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 01" />
+                                    </div>   
+
+                                    <div class="col-md-3 usuario01_gol" id="usuario01"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                    <div class="col-md-3 usuario_participante" id="usuario02">  
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 02" />
+                                    </div> 
+
+                                    <div class="col-md-3 usuario02_gol" id="usuario02"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-12">
+
+                                    <div class="col-md-3 usuario_participante" id="usuario03"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 03" />
+                                    </div>   
+
+                                    <div class="col-md-3 usuario03_gol" id="usuario03"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                    <div class="col-md-3 usuario_participante" id="usuario04">  
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 04" />
+                                    </div> 
+
+                                    <div class="col-md-3 usuario04_gol" id="usuario04"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-12">
+
+                                    <div class="col-md-3 usuario_participante" id="usuario05"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 05" />
+                                    </div>   
+
+                                    <div class="col-md-3 usuario05_gol" id="usuario05"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                    <div class="col-md-3 usuario_participante" id="usuario06">  
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 06" />
+                                    </div> 
+
+                                    <div class="col-md-3 usuario06_gol" id="usuario06"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-12">
+
+                                    <div class="col-md-3 usuario_participante" id="usuario07"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 07" />
+                                    </div>   
+
+                                    <div class="col-md-3 usuario07_gol" id="usuario07"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                    <div class="col-md-3 usuario_participante" id="usuario08">  
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="Usuário 08" />
+                                    </div> 
+
+                                    <div class="col-md-3 usuario08_gol" id="usuario08"> 
+                                        <input type="text" class="form-control" id="usuario_camp" name="usuario" placeholder="" />
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>  <!-- fim da div geral --> 
+
+        </div>
+
+        <!-- Rodape -->
         <?php
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo "<h1>Campeonatos</h1>";
+        include "../rodape/rodape.php";
         ?>
     </body>
+
 </html>
 
 
