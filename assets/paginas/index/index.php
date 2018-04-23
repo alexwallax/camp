@@ -1,3 +1,12 @@
+<?php
+
+    session_start();
+
+    if(!isset($_SESSION['usuario'])) {
+        header('Location: index.php');
+    }
+
+?>
 
 
 
@@ -31,13 +40,24 @@
                 <div class="col-md-12">
 
                     <!-- Menu -->
-                    <?php
-                    include "../menu/menu.php";
-                    ?>
+<?php
+include "../menu/menu.php";
+?>
 
                     <!-- Corpo -->
-                    
-                    
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    Usuário autenticado!!!
+                    <br />
+<?= $_SESSION['USU_USUARIO'] ?>
+                    <br />
+                    <?= $_SESSION['USU_EMAIL'] ?>
 
                 </div><!-- fim div col-md-12 -->
 
@@ -46,9 +66,9 @@
         </div><!-- fim div container -->
 
         <!-- Rodape -->
-        <?php
-        include "../rodape/rodape.php";
-        ?>        
+<?php
+include "../rodape/rodape.php";
+?>        
 
     </body>
 </html>

@@ -1,4 +1,7 @@
 <?php
+    //Obs sempre colocar o session_start() como primaira instrução
+    session_start();
+
 require_once '../../classes/dao/db.php';
 
 $usuario = $_POST['usuario'];
@@ -16,7 +19,10 @@ if ($resultado_id) {
     $dados_usuario = mysqli_fetch_array($resultado_id);
     
     if (isset($dados_usuario['USU_USUARIO'])) {
-//        echo 'existe';
+        
+        $_SESSION['USU_USUARIO'] = $dados_usuario['USU_USUARIO'];
+        $_SESSION['USU_EMAIL'] = $dados_usuario['USU_EMAIL'];
+        
         header("location:../../../assets/paginas/index/index.php");
     } else {
          header("location:../../../assets/paginas/entrar/entrar.php");
