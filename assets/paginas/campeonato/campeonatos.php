@@ -18,33 +18,31 @@
         <![endif]-->
 
     </head>
-    
+
     <body>
-        <div id="geral">
 
-            <?php
-            include "../menu/menu.php";
-            ?>
+        <div id="geral_entrar" class="container">
 
-            <!-- Rodape -->
-            <?php
-            include "../rodape/rodape.php";
-            ?>
+            <div class="row" align="center">
 
-        </div>  <!-- fim da div geral --> 
+                <div class="col-md-4" id="campeonato" align="center">
 
+                    <?php
+                    include "../menu/menu.php";
+                    ?>
 
+                </div>
 
+            </div>  <!-- fim da div geral --> 
 
+        </div>
+        
+        <!-- Rodape -->
         <?php
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo '<br>';
-        echo "<h1>Campeonatos</h1>";
+        include "../rodape/rodape.php";
         ?>
     </body>
+
 </html>
 
 
