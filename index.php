@@ -56,6 +56,7 @@
                                     <li><a href="assets/paginas/campeonato/campeonatos.php">Campeonatos</a></li>
                                     <li><a href="assets/paginas/cadastro/cadastro.php">Cadastre-se</a></li>                      
                                     <li><a href="assets/paginas/entrar/entrar.php">Entrar</a></li>
+                                    <li><a href="assets/paginas/cadastro/usuarios.php">Usuários</a></li>
                                 </ul>
                             </div><!-- fim da collapse navbar-collapse -->   
                         </div><!-- fim da div container -->  
