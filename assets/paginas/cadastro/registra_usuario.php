@@ -19,5 +19,8 @@ if (mysqli_query($link, $sql)) {
     echo "Erro ao cadastrar o usuário!";
 }
 
+//if() {
+//    
+//}
 
 ?>

@@ -80,6 +80,19 @@ nav.navbar-transparente{
 }
 
 
+/* ********** Usuario ********** */
+
+#usuarioLista {
+    border-radius: 10px;
+    width: 380px;
+
+    background: #fff;
+    margin-top: 200px;
+    padding: 10px;   
+    float: none;
+}
+
+
 /* ********** Canpeonato ********** */
 #campeonato {
     border-radius: 10px;

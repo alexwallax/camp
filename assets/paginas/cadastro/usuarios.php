@@ -32,11 +32,11 @@
             <!--formulario de entrar-->  
             <div class="row" align="center">
 
-                <div class="col-md-4" id="entrar" align="center">
+                <div class="col-md-4" id="usuarioLista" align="center">
 
                     <form method="post" action="#" >
 
-                        <h1 align="center"><b>Usuários</b></h1>
+                        <h1 align="center" ><b>Usuários</b></h1>
 
 
 
