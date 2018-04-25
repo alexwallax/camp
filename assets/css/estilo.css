@@ -14,7 +14,7 @@ html ,body, .capa {
 }
 
 body {
-    background: url("../img/pes.jpg") no-repeat, /* colocando dois backgrounds com esses dois urls */
+    background: url("../img/campo.jpg") no-repeat, /* colocando dois backgrounds com esses dois urls */
         url('../img/ruido.png'), /* isso é possivel pq elas estão ambas com opacidade */
         linear-gradient(100deg,#01DF74, #01DF3A); /* Essa linha de codigo vai colocar um gradiente */
     background-attachment: fixed; /* faz com que o background de fundo fique parado */
