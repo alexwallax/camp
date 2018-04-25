@@ -11,7 +11,7 @@
                             <span class="icon-bar"></span> <!-- esses 3 spans faz aquele simbolo de quadrado co tres tiras dentro -->
                         </button>
 
-                        <a href="../index/index.php" class="navbar-brand">
+                        <a href="../../../index.php" class="navbar-brand">
                             <span class="logo"><img src="../../img/LogoX1.png"></span>
                         </a>
 
