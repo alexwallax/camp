@@ -14,7 +14,7 @@ html ,body, .capa {
 }
 
 body {
-    background: url("../img/futx1.png") no-repeat, /* colocando dois backgrounds com esses dois urls */
+    background: url("../img/pes.jpg") no-repeat, /* colocando dois backgrounds com esses dois urls */
         url('../img/ruido.png'), /* isso é possivel pq elas estão ambas com opacidade */
         linear-gradient(100deg,#01DF74, #01DF3A); /* Essa linha de codigo vai colocar um gradiente */
     background-attachment: fixed; /* faz com que o background de fundo fique parado */
@@ -22,6 +22,7 @@ body {
     /*  overflow-x: hidden;  remove a barra de navegação na horizontal */
     /* o overflow-y remove a barra de navegação na vertical */
     background-size: 100% 100%;
+   
 }
 
 /* ********** cabecalho ********** */
@@ -62,7 +63,7 @@ nav.navbar-transparente{
 
 .corpo_direito {
     
-    background: url("../img/pes.jpg") no-repeat; 
+/*    background: url("../img/pes.jpg") no-repeat; */
     width: 600px;  
     height: 600px;
     float: right;
@@ -75,6 +76,7 @@ nav.navbar-transparente{
     margin-left: 50px;
     font-family: serif;
     font-size: 50px;
+    color: white;
 }
 
 
