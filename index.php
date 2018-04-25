@@ -78,7 +78,7 @@
 
                             <div class="col-md-6 corpo_direito">
                                 <div class="col-md-12">
-                                    <img src="assets/img/messi.jpg" width="600px" height="400px">
+                                    
                                 </div>
                             </div>                            
 

@@ -61,11 +61,13 @@ nav.navbar-transparente{
 }
 
 .corpo_direito {
-    background-color: red;
-    width: 500px;
-    height: 400px;
+    
+    background: url("../img/pes.jpg") no-repeat; 
+    width: 600px;  
+    height: 600px;
     float: right;
-    margin-top: 100px;
+    margin-top: 150px;
+    
 }
 
 #texto_corpo {
