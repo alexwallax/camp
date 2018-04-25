@@ -52,13 +52,37 @@ nav.navbar-transparente{
 
 /* ********** Corpo ********** */
 
+.corpo_esquerdo {
+  
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+}
+
+.corpo_direito {
+    background-color: red;
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin-top: 100px;
+}
+
+#texto_corpo {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: serif;
+    font-size: 50px;
+}
+
+
 /* ********** Canpeonato ********** */
 #campeonato {
     border-radius: 10px;
     width: 400px;
     height: 400px;
     background: #fff;
-    margin-top: 200px;
+    margin-top: 120px;
     padding: 10px;   
     float: none;
 }

@@ -66,6 +66,26 @@
 
                     <!-- Corpo -->
 
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="col-md-6 corpo_esquerdo">
+                                <div class="col-md-12">
+                                    <h1 id="texto_corpo">PARTICIPE <br> OU <br> ORGANIZE <br> CAMPEONATOS <br> ONLINE </h1>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 corpo_direito">
+                                <div class="col-md-12">
+                                    <img src="assets/img/messi.jpg" width="600px" height="400px">
+                                </div>
+                            </div>                            
+
+
+                        </div>
+
+                    </div>
 
 
                 </div><!-- fim div col-md-12 -->
