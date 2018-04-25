@@ -20,9 +20,9 @@
         <![endif]-->
 
     </head>
-    
+
     <body>
-        
+
         <div id="geral_entrar" class="container">
 
             <?php
@@ -39,19 +39,25 @@
                         <h1 align="center" ><b>Usuários</b></h1>
 
 
+                        <?php
+//                        $dao = new UsuarioDAO();
+//                        $Usuarios = $dao->listarTodos();
+//                        foreach ($Usuarios as $usuario) {
+                        ?>
+                    
 
-                    </form>
+                        </form>
+
+                    </div>
+
 
                 </div>
+            </div> <!-- fim da div container --> 
 
 
-            </div>
-        </div> <!-- fim da div container --> 
-
-
-        <?php
-        include "../rodape/rodape.php";
-        ?>   
+            <?php
+            include "../rodape/rodape.php";
+            ?>   
 
 
     </body>
