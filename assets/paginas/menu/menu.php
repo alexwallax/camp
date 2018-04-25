@@ -12,7 +12,7 @@
                         </button>
 
                         <a href="../../../index.php" class="navbar-brand">
-                            <span class="logo"><img src="../../img/LogoX1.png"></span>
+                            <span class="logo"><img src="../../img/LogoX1.png" class="img-responsive" ></span>
                         </a>
 
                     </div> <!-- fim do navbar-header -->

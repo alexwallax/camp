@@ -60,11 +60,12 @@
                             </div><!-- fim da collapse navbar-collapse -->   
                         </div><!-- fim da div container -->  
                     </nav>  <!-- fim da div cabecalho -->  
-                    
+
                     <!-- Fim do menu -->
-                                    
-                    
+
+
                     <!-- Corpo -->
+
 
 
                 </div><!-- fim div col-md-12 -->
@@ -74,9 +75,25 @@
         </div><!-- fim div container -->
 
         <!-- Rodape -->
-        <?php
-        include "./assets/paginas/rodape/rodape.php";
-        ?>        
+        <div class="row">
+
+            <div class="footer col-md-12" >
+
+                <div class="col-md-8" id="email_rodape">
+                    <h2>Email: campeonatos@campoeonatos.com.br</h2>
+                </div>
+
+                <div>                   
+                    <ul class="nav col-md-4">
+                        <li class="iten-rede-social"><a href="#"><img src="assets/img/facebook.png"  ></a></li>
+                        <li class="iten-rede-social"><a href="#"><img src="assets/img/twitter.png" ></a></li>
+                        <li class="iten-rede-social"><a href="#"><img src="assets/img/instagram.png" ></a></li>
+                    </ul>                   
+                </div>  
+
+            </div>
+        </div>
+        <!-- fim do rodape -->         
 
     </body>
 </html>
