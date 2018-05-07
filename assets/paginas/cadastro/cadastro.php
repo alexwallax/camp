@@ -32,18 +32,35 @@
                     <h3><b>Cadastre-se já.</b></h3>
                     <br />
                     <form method="post" action="registra_usuario.php" id="formCadastrarse">
+  
                         <div class="form-group">
-                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário" required="requiored">
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo*" required="requiored">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário*" required="requiored">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required="requiored">
+                        </div>                       
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required="requiored">
                         </div>
 
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="requiored">
+                            <input type="confirma_email" class="form-control" id="confirma_email" name="confirma_email" placeholder="Confirme o Email*" required="requiored">
+                        </div>                        
+                        
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha*" required="requiored">
                         </div>
 
                         <div class="form-group">
-                            <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required="requiored">
-                        </div>
-
+                            <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirme a Senha*" required="requiored">
+                        </div>                        
+                        
                         <button type="submit" class="btn btn-block ">Inscreva-se</button>
                     </form>
                 </div>            
