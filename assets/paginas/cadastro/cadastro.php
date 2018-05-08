@@ -49,7 +49,7 @@
                             <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário*" required="requiored">
                             <?php
                                 if($erro_usuario) {//este teste vai receber 1 ou 0(por padrão recebe 1) se for 1 executa o echo (1 é igual a true e 0 e igual a false)
-                                    echo "Usuário já existe";
+                                    echo '<font style="color:#FF0000">Usuário já existe</font>';
                                 }
                             ?>
                         </div>
@@ -62,7 +62,7 @@
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required="requiored">
                             <?php
                                 if($erro_email) {
-                                    echo "Email já existe";
+                                    echo '<font style="color:#FF0000">Email já existe</font>';
                                 }
                             ?>                           
                         </div>

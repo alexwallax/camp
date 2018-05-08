@@ -56,13 +56,13 @@ if($usuario_existe || $email_existe) {
     }
     
     header('Location: cadastro.php?'.$retorno_get);
-    
+    //die() interrompe a execução do escript
+    die();
 }
 
 
 
-//die() interrompe a execução do escript
-die();
+
 
 //query de insert
 $sql = " INSERT INTO TB_USUARIOS(USU_USUARIO, USU_EMAIL, USU_SENHA, USU_NOME, USU_CONFIRMA_EMAIL, USU_CONFIRMA_SENHA, USU_TELEFONE)";
