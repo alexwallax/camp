@@ -1,3 +1,11 @@
+<?php
+
+    $erro_usuario  = isset($_GET['erro_usuario'])  ? $_GET['erro_usuario']  : 0;
+    $erro_email    = isset($_GET['erro_email'])    ? $_GET['erro_email']    : 0;
+
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -39,6 +47,11 @@
                         
                         <div class="form-group">
                             <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário*" required="requiored">
+                            <?php
+                                if($erro_usuario) {//este teste vai receber 1 ou 0(por padrão recebe 1) se for 1 executa o echo (1 é igual a true e 0 e igual a false)
+                                    echo "Usuário já existe";
+                                }
+                            ?>
                         </div>
                         
                         <div class="form-group">
@@ -47,6 +60,11 @@
 
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required="requiored">
+                            <?php
+                                if($erro_email) {
+                                    echo "Email já existe";
+                                }
+                            ?>                           
                         </div>
 
                         <div class="form-group">
