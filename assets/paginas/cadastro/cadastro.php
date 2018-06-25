@@ -1,7 +1,9 @@
 <?php
 
-    $erro_usuario  = isset($_GET['erro_usuario'])  ? $_GET['erro_usuario']  : 0;
-    $erro_email    = isset($_GET['erro_email'])    ? $_GET['erro_email']    : 0;
+    $erro_usuario         = isset($_GET['erro_usuario'])       ? $_GET['erro_usuario']        : 0;
+    $erro_email           = isset($_GET['erro_email'])         ? $_GET['erro_email']          : 0;
+    $erro_email_confima   = isset($_GET['erro_email_confima']) ? $_GET['erro_email_confima']  : 0;
+    $erro_senha_confima   = isset($_GET['erro_senha_confima']) ? $_GET['erro_senha_confima']  : 0;
 
 ?>
 
@@ -67,18 +69,26 @@
                             ?>                           
                         </div>
 
-                        <div class="form-group">
+<!--                    <div class="form-group">
                             <input type="confirma_email" class="form-control" id="confirma_email" name="confirma_email" placeholder="Confirme o Email*" required="requiored">
-                        </div>                        
-                        
+                        </div>                        -->
+                           <?php
+                                if($erro_email_confima) {
+                                    echo '<font style="color:#FF0000">E-mails diferentes</font>';
+                                }
+                            ?>                     
                         <div class="form-group">
                             <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha*" required="requiored">
                         </div>
 
-                        <div class="form-group">
+<!--                    <div class="form-group">
                             <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirme a Senha*" required="requiored">
-                        </div>                        
-                        
+                        </div>                        -->
+                           <?php
+                                if($erro_senha_confima) {
+                                    echo '<font style="color:#FF0000">Senhas diferentes</font>';
+                                }
+                            ?>                     
                         <button type="submit" class="btn btn-block ">Inscreva-se</button>
                     </form>
                 </div>            
